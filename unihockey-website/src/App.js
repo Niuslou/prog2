@@ -26,29 +26,35 @@ function App() {
         <div className="sections">
           <a href="/geschichte.html" className="section-card">
             <div className="card-image"></div>
-            <h3>Geschichte</h3>
-            <p>Kurze Einführung in die Geschichte</p>
+            <div className="card-content">
+              <h3>Geschichte</h3>
+              <p>Kurze Einführung in die Geschichte</p>
+            </div>
           </a>
           
           <a href="/skills.html" className="section-card">
             <div className="card-image"></div>
-            <h3>Verschiedene Skills</h3>
-            <p>Aufzählung der Skills.</p>
+            <div className="card-content">
+              <h3>Verschiedene Skills</h3>
+              <p>Aufzählung der Skills.</p>
+            </div>
           </a>
           
           <a href="/bildergalerie.html" className="section-card">
             <div className="card-image"></div>
-            <h3>Bildergalerie</h3>
-            <p></p>
+            <div className="card-content">
+              <h3>Bildergalerie</h3>
+              <p></p>
+            </div>
           </a>
         </div>
       </main>
       
       {/* Footer */}
       <footer className="footer">
-        <p>Über niemanden</p>
-        <p>keinen Kontakt</p>
-        <p>Privacy Policy</p>
+        <a href="/ueber.html">Über niemanden</a>
+        <a href="/kontakt.html">keinen Kontakt</a>
+        <a href="/privacy-policy.html">Privacy Policy</a>
       </footer>
     </div>
   );

@@ -14,7 +14,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem 3rem; /* Erhöhtes Padding für größere Headerhöhe */
+  padding: 3rem 3rem; /* Geändertes Padding für größeren Header */
   background-color: #e0e0e0;
 }
 
@@ -65,33 +65,61 @@
   gap: 2rem;
 }
 
+/* Section Card Styling */
 .section-card {
-  width: 200px;
+  display: flex; /* Flexbox für horizontale Anordnung */
+  align-items: center;
+  width: 300px;
   padding: 1rem;
   border: 1px solid #d8d8d8;
   border-radius: 8px;
-  text-align: center;
-  text-decoration: none; /* Entfernt den Link-Unterstrich */
-  color: inherit; /* Linkfarbe übernimmt Textfarbe */
+  text-align: left;
+  text-decoration: none;
+  color: inherit;
   transition: transform 0.2s;
 }
 
 .section-card:hover {
-  transform: scale(1.05); /* Kleiner Zoom-Effekt beim Hover */
+  transform: scale(1.05);
 }
 
 .card-image {
   width: 80px;
   height: 80px;
   background-color: #d8d8d8;
-  margin: 0 auto 1rem;
+  margin-right: 1rem; /* Abstand zwischen Bild und Text */
+  flex-shrink: 0; /* Verhindert, dass das Bild verkleinert wird */
+}
+
+.card-content {
+  flex-grow: 1;
+}
+
+.card-content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-content p {
+  font-size: 0.9rem;
+  color: #555;
 }
 
 /* Footer */
 .footer {
   display: flex;
   justify-content: space-around;
-  padding: 1rem 0;
+  padding: 3rem 3rem; /* Geändertes Padding für größeren Footer */
   background-color: #f0f0f0;
   font-size: 0.9rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.2s;
+}
+
+.footer a:hover {
+  color: #0073e6; /* Link-Farbe bei Hover */
 }
