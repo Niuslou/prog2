@@ -24,23 +24,23 @@ function App() {
         </div>
         
         <div className="sections">
-          <div className="section-card">
+          <a href="/geschichte.html" className="section-card">
             <div className="card-image"></div>
             <h3>Geschichte</h3>
             <p>Kurze Einführung in die Geschichte</p>
-          </div>
+          </a>
           
-          <div className="section-card">
+          <a href="/skills.html" className="section-card">
             <div className="card-image"></div>
             <h3>Verschiedene Skills</h3>
             <p>Aufzählung der Skills.</p>
-          </div>
+          </a>
           
-          <div className="section-card">
+          <a href="/bildergalerie.html" className="section-card">
             <div className="card-image"></div>
             <h3>Bildergalerie</h3>
             <p></p>
-          </div>
+          </a>
         </div>
       </main>
       

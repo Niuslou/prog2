@@ -9,17 +9,17 @@
   color: #333;
 }
 
-/* Header */
+/* Vergrößerter Header */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 3rem 3rem; /* Erhöhtes Padding für größere Headerhöhe */
   background-color: #e0e0e0;
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: 2rem; /* Vergrößerte Schriftgröße */
 }
 
 .nav {
@@ -58,6 +58,7 @@
   margin-bottom: 0.5rem;
 }
 
+/* Sections as Links */
 .sections {
   display: flex;
   justify-content: center;
@@ -70,6 +71,13 @@
   border: 1px solid #d8d8d8;
   border-radius: 8px;
   text-align: center;
+  text-decoration: none; /* Entfernt den Link-Unterstrich */
+  color: inherit; /* Linkfarbe übernimmt Textfarbe */
+  transition: transform 0.2s;
+}
+
+.section-card:hover {
+  transform: scale(1.05); /* Kleiner Zoom-Effekt beim Hover */
 }
 
 .card-image {
