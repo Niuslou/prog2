@@ -54,7 +54,7 @@ function App() {
       <footer className="footer">
         <a href="/ueber.html">Über niemanden</a>
         <a href="/kontakt.html">keinen Kontakt</a>
-        <a href="/privacy-policy.html">Privacy Policy</a>
+        <a href="/privacy-policy.html">Privacy Policy</a> {/* Verlinkt auf die neue Seite */}
       </footer>
     </div>
   );
