@@ -1,0 +1,110 @@
+/* Allgemeine Stile */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #e0e0e0;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Stile für den Header */
+header {
+    display: flex;
+    justify-content: space-between; /* Elemente an den beiden Enden positionieren */
+    align-items: center;
+    padding: 3rem;
+    background-color: #e0e0e0; /* gleiche Hintergrundfarbe wie der Header */
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links a,
+  .nav-links input {
+    margin-left: 1rem;
+  }
+  
+  input[type="text"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
+  main {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  main h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Galerie-Container */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* vier Spalten */
+    gap: 1rem; /* Abstand zwischen den Bildern */
+    padding: 2rem;
+  }
+  
+  /* Bildkarte (einzelne Bilder mit Titel und Beschreibung) */
+  .gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Titel und Beschreibung */
+  .gallery-item h3 {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .gallery-item p {
+    font-size: 0.9rem;
+    color: #666;
+  }  
+  
+  footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 3rem; /* Geändertes Padding für größeren Footer */
+    background-color: #f0f0f0;
+    font-size: 0.9rem;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s;
+  }
+ 
+  footer a:hover {
+    color: #0073e6; /* Link-Farbe bei Hover */
+  } 
