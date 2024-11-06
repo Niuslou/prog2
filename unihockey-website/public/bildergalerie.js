@@ -3,22 +3,22 @@ const images = [
     {
       url: "Bilder/Ball.svg",
       title: "Ball",
-      description: "Isch en Unihockey Ball"
+      description: "Ist ein Unihockey Ball"
     },
     {
       url: "Bilder/Schleger.png",
-      title: "Unihockey Schleger",
-      description: "Isch en Unihockey Schleger"
+      title: "Unihockey Stock",
+      description: "Ist ein Unihockey Stock"
     },
     {
       url: "Bilder/Gool.jpg",
-      title: "Gool",
-      description: "Isch es Unihockey Gool"
+      title: "Tor",
+      description: "Ist ein Unihockey Tor"
     },
     {
       url: "Bilder/chli.jpg",
-      title: "chlines Gool",
-      description: "Isch es chlises Unihockey Gool"
+      title: "kleines Tor",
+      description: "Ist ein kleines Unihockey Tor"
     }
   ];
   
@@ -27,7 +27,6 @@ const images = [
     const galleryContainer = document.querySelector(".gallery");
     
     images.forEach((image) => {
-      // HTML für ein Bild-Item
       const galleryItem = document.createElement("div");
       galleryItem.classList.add("gallery-item");
   
@@ -36,8 +35,7 @@ const images = [
         <h3>${image.title}</h3>
         <p>${image.description}</p>
       `;
-  
-      // Bild-Item in die Galerie einfügen
+
       galleryContainer.appendChild(galleryItem);
     });
   }

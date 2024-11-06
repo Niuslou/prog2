@@ -4,7 +4,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      {/* Header */}
       <header className="header">
         <h1 className="title">Titel</h1>
         <nav className="nav">
@@ -13,7 +12,7 @@ function App() {
         </nav>
       </header>
       
-      {/* Main Content */}
+      
       <main className="content">
         <div className="intro">
           <div className="intro-image"></div>
@@ -50,11 +49,11 @@ function App() {
         </div>
       </main>
       
-      {/* Footer */}
+      
       <footer className="footer">
         <a href="/ueber.html">Über niemanden</a>
         <a href="/kontakt.html">keinen Kontakt</a>
-        <a href="/privacy-policy.html">Privacy Policy</a> {/* Verlinkt auf die neue Seite */}
+        <a href="/privacy-policy.html">Privacy Policy</a> 
       </footer>
     </div>
   );
