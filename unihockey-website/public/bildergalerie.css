@@ -1,4 +1,3 @@
-/* Allgemeine Stile */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -14,13 +13,12 @@ body {
     align-items: center;
   }
   
-  /* Stile für den Header */
 header {
     display: flex;
-    justify-content: space-between; /* Elemente an den beiden Enden positionieren */
+    justify-content: space-between;
     align-items: center;
     padding: 3rem;
-    background-color: #e0e0e0; /* gleiche Hintergrundfarbe wie der Header */
+    background-color: #e0e0e0;
   }
   
   header h1 {
@@ -58,12 +56,11 @@ header {
   /* Galerie-Container */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* vier Spalten */
-    gap: 1rem; /* Abstand zwischen den Bildern */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
     padding: 2rem;
   }
   
-  /* Bildkarte (einzelne Bilder mit Titel und Beschreibung) */
   .gallery-item {
     display: flex;
     flex-direction: column;
@@ -80,7 +77,6 @@ header {
     border-radius: 8px;
   }
   
-  /* Titel und Beschreibung */
   .gallery-item h3 {
     margin-top: 0.5rem;
     font-size: 1.2rem;
@@ -94,7 +90,7 @@ header {
   footer {
     display: flex;
     justify-content: space-around;
-    padding: 3rem 3rem; /* Geändertes Padding für größeren Footer */
+    padding: 3rem 3rem;
     background-color: #f0f0f0;
     font-size: 0.9rem;
   }
@@ -106,5 +102,5 @@ header {
   }
  
   footer a:hover {
-    color: #0073e6; /* Link-Farbe bei Hover */
+    color: #0073e6;
   } 
