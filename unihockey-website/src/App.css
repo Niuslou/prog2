@@ -78,6 +78,8 @@
 
 .section-card:hover {
   transform: scale(1.05);
+  background-color: black;
+  color: white;
 }
 
 .card-image {
@@ -100,6 +102,10 @@
 .card-content p {
   font-size: 0.9rem;
   color: #555;
+}
+
+.section-card:hover p{
+  color: lightgray;
 }
 
 .footer {
