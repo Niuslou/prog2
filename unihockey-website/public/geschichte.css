@@ -1,0 +1,106 @@
+/* Grundlegendes Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header */
+  .header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+  }
+  
+  .header nav a:hover {
+    color: #00f;
+  }
+  
+  /* Main Layout */
+  main {
+    display: flex;
+    margin: 2rem;
+  }
+  
+  /* Inhaltsverzeichnis (Sidebar) */
+  .sidebar {
+    width: 25%;
+    background: #fff;
+    padding: 1rem;
+    margin-right: 2rem;
+    border: 1px solid #ddd;
+  }
+  
+  .sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .sidebar a:hover {
+    color: #00f;
+  }
+  
+  /* Dropdown Menü */
+  .dropdown-content {
+    display: none;
+    padding-left: 1rem;
+    list-style: none;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-title {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Inhalt */
+  .content {
+    width: 75%;
+    background: #fff;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+  }
+  
+  .content h2 {
+    margin-top: 2rem;
+    color: #333;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    margin-top: 2rem;
+  }
+  
