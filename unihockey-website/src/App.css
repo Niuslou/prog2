@@ -44,6 +44,13 @@
   justify-content: center;
   gap: 1rem;
   margin-bottom: 2rem;
+  border: 3px solid lightgray;
+  border-radius: 15px;
+  padding: 2rem;
+}
+
+.intro:hover{
+  transform: scale(1.01);
 }
 
 .intro-image {
